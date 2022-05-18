@@ -36,9 +36,9 @@ print('Gambar yang mirip: ' + df.iloc[0,0])
 ```
 ## Eksplorasi
 Beberapa eksplorasi yang dapat dilakukan antara lain:
-•	Model yang digunakan
-•	Metrik yang digunakan
-•	Detektor wajah yang digunakan
+*	Model yang digunakan
+*	Metrik yang digunakan
+*	Detektor wajah yang digunakan
 ```
 models = ["VGG-Face", "Facenet", "OpenFace", "DeepFace", "DeepID", "Dlib", "ArcFace"]
 metrics = ["cosine", "euclidean", "euclidean_l2"]
@@ -119,7 +119,8 @@ plt.show()
 ```
 ## Hasil Terbaik
 Berdasarkan eksplorasi yang dilakukan diperoleh konfigurasi terbaik sebagai berikut:
-•	Nama model : Facenet
-•	Nama detektor : dlib
-•	Nama metrik: cosine
+*	Nama model : Facenet
+*	Nama detektor : dlib
+*	Nama metrik: cosine
+
 dengan akurasi 72.8%
