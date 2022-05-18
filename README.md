@@ -83,6 +83,8 @@ plt.bar(models, tabel_akurasi_model)
 plt.ylabel('Akurasi')
 plt.show()
 ```
+
+![eksplorasi model](eksplorasi_model.png)
 ### Eksplorasi Detektor Wajah
 Detektor wajah sangat penting dalam pengenalan wajah, oleh karena itu detektor wajah perlu dieksplorasi untuk mendapatkan hasil terbaik.
 ```
@@ -99,6 +101,8 @@ plt.bar(backends, tabel_akurasi_detektor)
 plt.ylabel('Akurasi')
 plt.show()
 ```
+
+![eksplorasi detektor](eksplorasi_detektor.png)
 ### Eksplorasi Metrik Jarak
 Metrik jarak digunakan untuk mengukur kesamaan dari gambar test dengan gambar pada database. Berikut perbandingan hasil akurasi menggunakan metrik jarak yang berbeda:
 ```
@@ -117,6 +121,8 @@ plt.bar(metrics, tabel_akurasi_metrik)
 plt.ylabel('Akurasi')
 plt.show()
 ```
+
+![eksplorasi jarak](eksplorasi_jarak.png)
 ## Hasil Terbaik
 Berdasarkan eksplorasi yang dilakukan diperoleh konfigurasi terbaik sebagai berikut:
 *	Nama model : Facenet
